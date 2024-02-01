@@ -1,6 +1,6 @@
 import React from "react";
 
-const RoadMap = () => {
+export function RoadMap() {
   const roadMap = [
     {
       topText: "Backend course",
@@ -67,6 +67,4 @@ const RoadMap = () => {
       </div>
     </div>
   );
-};
-
-export default RoadMap;
+}

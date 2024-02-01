@@ -1,8 +1,9 @@
 import React from "react";
 import HomeLogo from "../components/Home/HomeLogo";
 import HomeText from "../components/Home/HomeText";
+import Footer from "../components/Footer/Footer";
 
-const Home = () => {
+export function Home() {
   return (
     <section className="h-screen flex items-center justify-center w-full">
       <div className=" h-full w-3/5 mt-40 bg-light-mode-content">
@@ -14,9 +15,8 @@ const Home = () => {
         </div>
         <HomeLogo />
         <HomeText />
+        <Footer />
       </div>
     </section>
   );
-};
-
-export default Home;
+}

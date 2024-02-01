@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import NavbarButtons from "./NavbarButtons";
 
-const Navbar = () => {
+export function Navbar() {
   let myName = ["J", "o", "e", "l", " ", "J", "-", "E"];
 
   let colors = [
@@ -54,6 +54,4 @@ const Navbar = () => {
       </nav>
     </div>
   );
-};
-
-export default Navbar;
+}

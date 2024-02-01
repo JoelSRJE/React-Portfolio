@@ -2,7 +2,7 @@ import React from "react";
 import Me from "../../assets/Me.png";
 import Budgie from "../../assets/Budgie.png";
 
-const AboutText = () => {
+export function AboutText() {
   return (
     <div>
       <div className="relative top-20">
@@ -12,26 +12,37 @@ const AboutText = () => {
         </span>
 
         <div>
-          <div className="text-text-color">
-            <span>
+          <div className="relative top-52 left-20 text-text-color">
+            <span className="text-xl">
               Hello, I'm an aspiring
-              <span className="text-pastel-blue"> Web Designer</span> and
-              <span className="text-pastel-blue"> Frontend Developer</span> Who
-              began his journey not that long ago
+              <span className="text-pastel-blue">
+                {" "}
+                Web Designer
+                <br />
+              </span>
+              and
+              <span className="text-pastel-blue text-xl">
+                {" "}
+                Frontend Developer
+              </span>{" "}
+              Who began <br /> his journey not that long ago
             </span>
           </div>
 
-          <div className="text-text-color">
-            <span>
+          <br />
+
+          <div className="relative top-52 left-20 text-text-color">
+            <span className="text-base">
               I recently moved to Växjö, Kronoberg. After a few years of living
-              in Stockholm{" "}
+              in Stockholm.
             </span>
-            <span>
+            <br />
+            <span className="text-base">
               I'm currently studying at EC Vocational School, Frontend
               Development
             </span>
           </div>
-
+          {/* Picture of me */}
           <div className="absolute left-2/3">
             <img src={Me} className="relative w-44 h-44" />
 
@@ -40,7 +51,6 @@ const AboutText = () => {
               <div className="relative bottom-5 right-6 w-5 h-5 bg-pastel-blue"></div>
             </span>
           </div>
-
           {/* <div>
             <img src={Budgie} />
             <span>
@@ -52,6 +62,4 @@ const AboutText = () => {
       </div>
     </div>
   );
-};
-
-export default AboutText;
+}

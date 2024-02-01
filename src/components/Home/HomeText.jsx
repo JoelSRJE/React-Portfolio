@@ -1,6 +1,6 @@
 import React from "react";
 
-const HomeText = () => {
+export function HomeText() {
   return (
     <div className="flex flex-col items-center justify-center">
       <div className="relative left-20 top-60">
@@ -34,6 +34,4 @@ const HomeText = () => {
       </div>
     </div>
   );
-};
-
-export default HomeText;
+}

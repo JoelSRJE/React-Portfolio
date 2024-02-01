@@ -1,6 +1,6 @@
 import React from "react";
 
-const HomeLogo = () => {
+export function HomeLogo() {
   return (
     <div>
       <div className="flex items-center justify-center">
@@ -15,6 +15,4 @@ const HomeLogo = () => {
       </div>
     </div>
   );
-};
-
-export default HomeLogo;
+}

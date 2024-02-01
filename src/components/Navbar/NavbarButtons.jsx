@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const NavbarButtons = () => {
+export function NavbarButtons() {
   return (
     <>
       {/* Navbar knapparna */}
@@ -38,6 +38,4 @@ const NavbarButtons = () => {
       </div>
     </>
   );
-};
-
-export default NavbarButtons;
+}
