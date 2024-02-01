@@ -11,7 +11,7 @@ const HomeText = () => {
         </div>
 
         <div className="relative right-10 top-32 ">
-          <span className="text-3xl font-medium text-text-color">
+          <span className="text-2xl font-medium text-text-color">
             I've just begun my journey in
             <span className="text-pastel-purple"> web design</span>
             <br />
@@ -19,7 +19,7 @@ const HomeText = () => {
           </span>
         </div>
 
-        <div className="relative left-20 text-3xl top-72 font-medium">
+        <div className="relative left-20 text-2xl top-72 font-medium">
           <span className="text-pastel-purple">Scroll </span>
           <span className="text-text-color">to </span>
           <span className="text-pastel-purple">continue </span>
@@ -27,7 +27,7 @@ const HomeText = () => {
         </div>
 
         <div className="relative top-96">
-          <span className="text-3xl font-medium text-text-color">
+          <span className="text-2xl font-medium text-text-color">
             Thank you for visiting my portfolio!
           </span>
         </div>

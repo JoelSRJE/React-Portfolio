@@ -5,7 +5,7 @@ const NavbarButtons = () => {
   return (
     <>
       {/* Navbar knapparna */}
-      <div className="relative left-96 -top-40">
+      <div className="relative left-[26rem] -top-40">
         <div className=" flex flex-col items-center gap-3 relative top-80 left-3/4 w-24">
           <Link to="/">
             <button className="-rotate-20 text-xl w-20 hover:scale-125">

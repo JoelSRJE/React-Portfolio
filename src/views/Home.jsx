@@ -7,8 +7,8 @@ const Home = () => {
     <section className="h-screen flex items-center justify-center w-full">
       <div className=" h-full w-3/5 mt-40 bg-light-mode-content">
         <div className="relative top-20">
-          <span className="text-text-color">
-            /<span className="text-pastel-purple">Frontpage</span>
+          <span className="text-text-color text-lg">
+            /<span className="text-pastel-purple ">Frontpage</span>
             <hr className="relative left-40 -top-3 border-2 border-pastel-purple w-3/4" />
           </span>
         </div>
